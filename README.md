@@ -40,4 +40,4 @@ Follow these instructions to get the project up and running on your development 
 To clone the repository and open the project in Android Studio, use the following commands:
 
 ```bash
-git clone https://github.com/yourusername/mynotes.git
+git clone https://github.com/Krishna-Vamsi-G/mynotes.git
