@@ -24,7 +24,7 @@ The app is built using the MVVM architectural pattern to ensure a clean separati
 
 Here's a quick look at how MyNotes works in action:
 
-![MyNotes App Demo](src/main/java/com/example/mynotes/assets/AppDemo.gif)
+![MyNotes App Demo](app/src/main/java/com/example/mynotes/assets/AppDemo.gif)
 
 ## Getting Started
 
