@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Delete Note Heading -->
+    <TextView
+        android:id="@+id/text_delete_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Note"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Delete Note Confirmation Message -->
+    <TextView
+        android:id="@+id/text_delete_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to delete this note?"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3dp"
+/>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <!-- Delete Button -->
+        <TextView
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/delete_backgroung"
+            android:layout_marginEnd="12dp"/>
+
+        <!-- Cancel Button -->
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="#000000"
+            android:background="@drawable/cancel_background"
+            android:layout_marginEnd="12dp"/>
+    </LinearLayout>
+</LinearLayout>

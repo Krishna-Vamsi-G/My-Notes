@@ -2,4 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#00897B</color>
+    <color name="primaryLightColor">#B2DFDB</color>
+    <color name="secondaryColor">#FFC107</color>
+    <color name="textOnPrimary">#FFFFFF</color>
+    <color name="textOnBackground">#424242</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="primary">#00897B</color> <!-- Teal -->
+    <color name="primaryDark">#00574B</color> <!-- Darker Teal -->
+    <color name="primaryLight">#4EBAAA</color> <!-- Lighter Teal -->
+    <color name="accent">#D81B60</color> <!-- Pink -->
+    <color name="primaryText">#FFFFFF</color> <!-- White -->
+    <color name="secondaryText">#757575</color> <!-- Grey -->
+    <color name="icons">#FFFFFF</color> <!-- White -->
+    <color name="background">#FAFAFA</color> <!-- Very Light Grey -->
+    <color name="fabColor">#FFC107</color> <!-- Amber -->
+    <color name="cardBackground">#FFFFFF</color> <!-- White -->
+    <color name="noteItemText">#DEDEDE</color> <!-- Light Grey -->
+
 </resources>

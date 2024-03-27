@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomButtonText" parent="TextAppearance.MaterialComponents.Button">
+        <!-- Use sans-serif-medium for newer versions -->
+        <item name="fontFamily">sans-serif-medium</item>
+        <!-- Use android:fontFamily for compatibility -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/textOnPrimary</item>
+    </style>
+
+    <style name="CustomToolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:elevation">4dp</item>
+        <item name="android:textAppearance">@style/ToolbarTitleTextAppearance</item>
+        <item name="titleTextColor">@color/textOnPrimary</item>
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="ToolbarTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <!-- Use android:fontFamily for compatibility -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+        <!-- Style for the Toolbar -->
+        <style name="AppTheme.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+            <item name="android:background">?attr/colorPrimary</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">?attr/actionBarSize</item>
+        </style>
+
+        <!-- Style for the CardView -->
+        <style name="AppTheme.CardView" parent="CardView">
+            <item name="cardCornerRadius">8dp</item>
+            <item name="cardElevation">2dp</item>
+            <item name="cardUseCompatPadding">true</item>
+        </style>
+
+        <!-- Style for the FloatingActionButton -->
+        <style name="AppTheme.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+            <item name="android:src">@drawable/add</item>
+            <item name="backgroundTint">@color/fabColor</item>
+        </style>
+
+
+
+
+
+
+</resources>

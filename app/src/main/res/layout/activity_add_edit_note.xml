@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        android:textColor="#333"
+        android:textColorHint="#888"
+        android:maxLines="2"
+        android:inputType="text|textCapSentences"
+        android:ellipsize="end" />
+
+    <EditText
+        android:id="@+id/edit_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Content"
+        android:background="@drawable/edit_text_background"
+        android:padding="16dp"
+        android:gravity="top|start"
+        android:minLines="4"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:textColorHint="#888"
+        android:inputType="textMultiLine|textCapSentences"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gradient_background"
+        android:text="SAVE"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:elevation="4dp"
+        android:textAppearance="@style/CustomButtonText"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
